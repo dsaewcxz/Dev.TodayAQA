@@ -1,7 +1,7 @@
 import {test, expect} from 'playwright/test';
 
 
-test.skip('Search Functionality, single search', async({page})=>{
+test('Search Functionality, single search', async({page})=>{
     
     await page.goto('https://vite-react-alpha-lemon.vercel.app/');
 
@@ -16,7 +16,7 @@ test.skip('Search Functionality, single search', async({page})=>{
 
 })
 
-test.skip('Search Functionality, multiple(2) search', async({page})=>{
+test('Search Functionality, multiple(2) search', async({page})=>{
 
     await page.goto('https://vite-react-alpha-lemon.vercel.app/');
 
@@ -34,7 +34,7 @@ test.skip('Search Functionality, multiple(2) search', async({page})=>{
     
 })
 
-test.skip('Search Functionality, "Not found" search', async({page})=>{
+test('Search Functionality, "Not found" search', async({page})=>{
     
     await page.goto('https://vite-react-alpha-lemon.vercel.app/');
 
